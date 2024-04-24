@@ -54,3 +54,28 @@
   height: 0.4rem !important;
   width: 3rem !important;
 }
+
+section#instructors .card {
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+section#instructors .card:hover {
+  transform: scale(1.03);
+}
+
+section#instructors i {
+  transition: opacity 0.6s;
+}
+
+section#instructors i:hover {
+  opacity: 0.5;
+}
+
+.nav-pills .nav-link.active {
+  background-color: var(--red);
+}
+
+.nav-pills .nav-link {
+  color: white;
+}
